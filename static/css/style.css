@@ -1,0 +1,164 @@
+@font-face {
+  font-family: poppins;
+  src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: poppins-bold;
+  src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: poppins-regular;
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: opensans;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: opensans-bold;
+  src: url(../fonts/OpenSans-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: opensans-bolditalic;
+  src: url(../fonts/OpenSans-SemiBoldItalic.ttf);
+}
+
+li {
+  display: inline;
+  margin-right: 70px;
+  font-size: 18px;
+  font-family: poppins;
+  font-weight: 500;
+  line-height: 27px;
+}
+
+a {
+  color: black;
+}
+
+.main-nav {
+  margin-left: 537px;
+}
+
+header {
+  margin-top: 30px;
+  border-bottom: 1px solid black;
+}
+
+.title {
+  margin-left: 560px;
+  font-family: FiraGo;
+  margin-top: 60px;
+  font-size: 24px;
+  line-height: 27px;
+}
+
+.content {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 15px 15px 25px 15px;
+  width: 333px;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content h3 {
+  margin: 15px 0;
+  line-height: 24px;
+  font-family: poppins-bold;
+}
+
+.content p {
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  font-family: poppins-regular;
+}
+
+.content h3,
+.content p {
+  margin-left: 10px;
+}
+
+.product {
+  display: inline-block;
+}
+
+.footer button {
+  font-size: 12px;
+  line-height: 18px;
+  padding: 6px 26px;
+  background-color: inherit;
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: poppins-regular;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.product.mid {
+  margin: 0px 100px;
+}
+
+.container {
+  padding: 120px 120px 0px 120px;
+}
+
+.description li {
+  display: block;
+  font-family: opensans;
+}
+
+.first-block {
+  margin-top: 100px;
+}
+
+.second-h2 h2 {
+  font-family: opensans-bold;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: 3%;
+  text-align: center;
+  margin-top: 100px;
+  color: #7d0000;
+}
+
+.first-lane {
+  font-family: opensans-bolditalic;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 3%;
+}
+
+.info {
+  font-family: opensans;
+  font-size: 25px;
+  line-height: 34px;
+  letter-spacing: 3%;
+  margin-left: 206px;
+}
+
+.info p {
+  margin-bottom: 32px;
+}
+
+.about-info {
+  font-family: opensans-bold;
+  font-size: 25px;
+  line-height: 41px;
+  letter-spacing: 3%;
+  display: inline-block;
+  width: 775px;
+  height: 205px;
+  margin-top: 118px;
+  margin-left: 175px;
+}
